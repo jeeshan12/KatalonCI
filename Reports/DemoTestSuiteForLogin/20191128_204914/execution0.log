@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-11-28T20:49:18</date>
+  <millis>1574954358304</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/DemoTestSuiteForLogin</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">DemoTestSuiteForLogin</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/DemoTestSuiteForLogin</property>
+</record>
+<record>
+  <date>2019-11-28T20:49:18</date>
+  <millis>1574954358334</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Jeeshan - LAPTOP-5P4VO57Q</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Jeeshan - LAPTOP-5P4VO57Q</property>
+</record>
+<record>
+  <date>2019-11-28T20:49:18</date>
+  <millis>1574954358335</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-11-28T20:49:18</date>
+  <millis>1574954358337</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.105</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.0.105</property>
+</record>
+<record>
+  <date>2019-11-28T20:49:18</date>
+  <millis>1574954358340</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.2.1.2</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.2.1.2</property>
+</record>
+<record>
+  <date>2019-11-28T20:49:18</date>
+  <millis>1574954358958</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/DemoTestForLogin</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/DemoTestForLogin</property>
+  <property name="description">Demo Test For Login</property>
+  <property name="id">Test Cases/DemoTestForLogin</property>
+  <property name="source">C:\\Users\\Jeeshan\\git\\KatalonCI\\Test Cases\\DemoTestForLogin.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-11-28T20:49:19</date>
+  <millis>1574954359050</millis>
+  <sequence>7</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/DemoTestForLogin has ERROR(s).\nReason:\njava.io.FileNotFoundException: File &amp;apos;&amp;apos; does not exist</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">java.io.FileNotFoundException</property>
+  <property name="failed.exception.stacktrace">java.io.FileNotFoundException: File &apos;&apos; does not exist\r\n\tat org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:299)\r\n\tat org.apache.commons.io.FileUtils.readFileToString(FileUtils.java:1711)\r\n\tat org.apache.commons.io.FileUtils.readFileToString(FileUtils.java:1734)\r\n\tat com.kms.katalon.core.main.TestCaseMethodNodeCollector.&lt;init&gt;(TestCaseMethodNodeCollector.java:43)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processScriptPreparationPhase(TestCaseExecutor.java:141)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:210)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:133)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:116)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:83)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1574954354781.run(TempTestSuite1574954354781.groovy:35)\r\n</property>
+  <property name="failed.exception.message">File &apos;&apos; does not exist</property>
+</record>
+<record>
+  <date>2019-11-28T20:49:19</date>
+  <millis>1574954359056</millis>
+  <sequence>8</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/DemoTestForLogin</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-11-28T20:49:19</date>
+  <millis>1574954359239</millis>
+  <sequence>9</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/DemoTestSuiteForLogin</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
